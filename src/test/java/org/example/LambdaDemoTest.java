@@ -15,7 +15,7 @@ public class LambdaDemoTest {
 
     @Test
     public void firstCharTest(){
-        assertEquals(null, LambdaDemo.firstChar.apply(""));
+        assertNull(LambdaDemo.firstChar.apply(""));
         assertEquals('d', LambdaDemo.firstChar.apply("dkfl"));
         assertEquals('h', LambdaDemo.firstChar.apply("hdoi"));
 
